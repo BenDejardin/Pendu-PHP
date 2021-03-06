@@ -1,4 +1,4 @@
-<?php
+<?PHP
   $fichier = file("french.txt");
   $nb = rand(0, count($fichier));
   $mot = $fichier[$nb];
